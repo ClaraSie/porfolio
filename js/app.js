@@ -23,7 +23,7 @@ const App = {
                     id: 4,              
                     title: '甜點電商Sweetast*',
                     content: '甜點電商行銷網站，主要建構購物車、結帳畫面，從無到有純手刻，實作RWD網站。',
-                    imgUrl: 'images/porfolio_sweetast.png',
+                    imgUrl: 'images/porfolio_sweetast.PNG',
                     demoUrl: 'https://clarasie.github.io/Sweetaste/'
                 },{
                     id: 5,              
