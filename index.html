@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="favicon/favicon.ico" type="image/png"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.2/vue.global.js"></script>
+    <title>Clara's portfolio</title>
+</head>
+<body>
+    <div id="app">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="favicon/favicon-32x32.png" alt="logo" width="32" height="32">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link mx-3 active" aria-current="page" href="index.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="porfolio.html">作品集</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="about.html">關於我</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="header d-flex align-items-md-center px-4 py-5" style="background-image: url(./images/banner.jpg);">           
+            <div class="container text-center text-white font-en">
+                <h2 class="fw-bold">Looking For Web Developer?</h2>
+                <p class="lead mb-4">Check out my portfolio</p>
+                <a href="porfolio.html" class="btn btn-outline-secondary d-none d-md-inline">portfolio</a>
+            </div>
+        </header>
+
+        <!-- skills -->
+        <div id="carouselExampleIndicators" class="carousel slide skills-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner py-5 bg-light">
+                <!-- Front-End -->
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="container">
+                        <h3 class="font-en fs-1 text-primary text-center mb-4">Front-End Skills</h3>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/Vue.png" alt="vue-logo" width="60" height="60">
+                            </li>
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/JavaScript-logo.png" alt="JavaScript-logo" width="60" height="60">
+                            </li>
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/sass.svg" alt="sass-logo" width="60" height="60">
+                            </li>
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3 d-flex align-items-center">
+                                <img src="images/bootstrap-logo-shadow.png" alt="bootstrap-logo" width="60" height="50">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- back-End -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <h3 class="font-en fs-1 text-primary text-center mb-4">Back-End Skills</h3>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/mssql.png" alt="mssql-logo" width="60" height="60">
+                            </li>
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/mvc.png" alt="asp.net mvc-logo" width="75" height="60">
+                            </li>
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/python.png" alt="python-logo" width="60" height="60">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Other skills -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <h3 class="font-en fs-1 text-primary text-center mb-4">Others</h3>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/git.png" alt="git-logo" width="80" height="40">
+                            </li>
+                            <li class="bg-white box shadow  d-flex align-items-center justify-content-center rounded-3 p-3 mx-2 mx-md-3">
+                                <img src="images/github-mark.png" alt="github-logo" width="60" height="60">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- porfolio -->
+        <section class="bg-white pb-lg-5" style="background-image: url(images/lightpaperfibers.png)">
+            <div class="container pt-5">
+                <div class="position-relative">
+                    <h2 class="fs-1 text-primary text-center fw-bold mb-4">作品集</h2>
+                    <a href="porfolio.html" class="btn btn-outline-primary d-none d-md-inline position-absolute end-0 top-50 translate-middle">查看更多作品</a>
+                </div>
+
+
+                <div class="row row-cols-1">
+                    <template v-for="(item, key) in portfolio" :key="item.id">
+                        <div class="col my-3 my-lg-4"> 
+                            <!-- if id=1.3...,show this div -->                   
+                            <div class="porfolio-card rounded d-flex flex-column flex-md-row align-items-center position-relative" v-if="item.id%2 == 1 && item.id < 5">
+                                <div class="col-md-6">
+                                    <img :src="item.imgUrl" class="img-fluid rounded" :alt="title">
+                                </div>
+                                <div class="col-md-6 p-3 px-md-4 px-lg-5">
+                                    <h4 class="fs-5">{{ item.title }}</h4>
+                                    <p class="text-body-secondary">{{ item.content }}</p>
+                                    <a :href="item.demoUrl" target="_blank" class="btn btn-secondary w-100 stretched-link font-en">Live Demo</a>
+                                </div>
+                            </div>
+
+                            <!-- if id=2.4...,show this div -->
+                            <div class="porfolio-card rounded d-flex flex-column flex-md-row-reverse align-items-center position-relative" v-else-if="item.id%2 == 0 && item.id < 5">
+                                <div class="col-md-6">
+                                    <img :src="item.imgUrl" class="img-fluid rounded" :alt="title">
+                                </div>
+                                <div class="col-md-6 p-3 px-md-4 px-lg-5">
+                                    <h4 class="fs-5">{{ item.title }}</h4>
+                                    <p class="text-body-secondary">{{ item.content }}</p>
+                                    <a :href="item.demoUrl" target="_blank" class="btn btn-secondary w-100 stretched-link fonte-en">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>                
+            </div>
+            <a href="porfolio.html" class="btn btn-light mt-3 py-3 d-block d-md-none">查看更多作品</a>
+        </section>
+
+        <footer class="bg-primary text-light text-center py-3">
+            <p class="mb-0 font-en" style="font-size: .875rem;">Clara Hsieh's Portfolio © 2023 Copyright</p>
+        </footer>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
