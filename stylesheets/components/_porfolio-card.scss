@@ -1,16 +1,19 @@
-.porfolio-card{
+.porfolio-card {
     box-shadow: 0 .5rem 1rem rgba($black, .15);
     background-color: $white;
 }
-@include media-breakpoint-up(md){
-    .porfolio-card{
+
+@include media-breakpoint-up(md) {
+    .porfolio-card {
         box-shadow: none;
         background-color: transparent;
     }
-    .shadow-hover{
+
+    .shadow-hover {
         box-shadow: 0 .5rem 1rem rgba($black, .15);
     }
-    .shadow-hover:hover{
-        box-shadow:   0 1rem 3rem rgba($black, .175);
+
+    .shadow-hover:hover {
+        box-shadow: 0 1rem 3rem rgba($black, .175);
     }
 }
