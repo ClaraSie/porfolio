@@ -12212,15 +12212,17 @@ body {
   background-color: #fff;
 }
 
+.shadow-hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
 @media (min-width: 768px) {
   .porfolio-card {
     box-shadow: none;
     background-color: transparent;
-  }
-  .shadow-hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  }
-  .shadow-hover:hover {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   }
 }/*# sourceMappingURL=all.css.map */

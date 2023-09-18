@@ -3,17 +3,17 @@
     background-color: $white;
 }
 
+.shadow-hover {
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 1rem 3rem rgba($black, .175);
+}
+
 @include media-breakpoint-up(md) {
     .porfolio-card {
         box-shadow: none;
         background-color: transparent;
-    }
-
-    .shadow-hover {
-        box-shadow: 0 .5rem 1rem rgba($black, .15);
-    }
-
-    .shadow-hover:hover {
-        box-shadow: 0 1rem 3rem rgba($black, .175);
     }
 }

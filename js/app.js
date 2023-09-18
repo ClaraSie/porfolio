@@ -31,6 +31,12 @@ const App = {
                 content: '主要功能財富管理規劃系統，負責後端運算，另有開發保險平台、後台輸入商品系統、我的人生護照畫面等專案。',
                 imgUrl: 'images/porfolio_holdingkeys.png',
                 demoUrl: 'https://www.holdingkeys.com/HoldingKeys/'
+            }, {
+                id: 6,
+                title: 'KEYs關鍵理財網',
+                content: '主要功能財富管理規劃系統，負責後端運算，另有開發保險平台、後台輸入商品系統、我的人生護照畫面等專案。',
+                imgUrl: 'images/porfolio_holdingkeys.png',
+                demoUrl: 'https://www.holdingkeys.com/HoldingKeys/'
             }
             ],
 
