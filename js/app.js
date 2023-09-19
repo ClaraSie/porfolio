@@ -33,11 +33,11 @@ const App = {
                 demoUrl: 'https://www.holdingkeys.com/HoldingKeys/'
             }, {
                 id: 6,
-                title: 'KEYs關鍵理財網',
-                content: '主要功能財富管理規劃系統，負責後端運算，另有開發保險平台、後台輸入商品系統、我的人生護照畫面等專案。',
-                imgUrl: 'images/porfolio_holdingkeys.png',
-                demoUrl: 'https://www.holdingkeys.com/HoldingKeys/'
-            }
+                title: 'Scrum 新手村',
+                content: '用撲克牌互動的方式，讓使用者了解什麼是 Scrum。以撲克卡 21點的玩法，將 Scrum的概念帶入21點的玩法中，讓使用者快速上手(使用sortable、gsap)。',
+                imgUrl: 'images/porfolio_scrum.png',
+                demoUrl: 'https://clarasie.github.io/Scrum/'
+            },
             ],
 
         }
