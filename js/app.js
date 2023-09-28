@@ -31,7 +31,7 @@ const App = {
                     title: '點點簽',
                     content: '護樹、永續、減碳的綠色生活，響應環保無紙化電子簽署(使用PDF.js、canvas、fabric.js)，省時便利又環保。以湖水綠為主色，水彩風格讓冰冷的網頁，有了一點綠色生機。',
                     imgUrl: 'images/porfolio_GNSign.png',
-                    demoUrl: 'https://clarasie.github.io/Sweetaste/'
+                    demoUrl: 'https://clarasie.github.io/GNSign/'
                 }, {
                     id: 6,
                     title: '甜點電商Sweetaste*',
